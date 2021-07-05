@@ -1,9 +1,10 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    background-color: rgb(230, 221, 221);
 }
-/*Header-section*/
-.header-section,.about-section{
+/*Food-network-section*/
+.food-network-section,.about-section{
     display: flex;
     height: 500px;
     margin-bottom: 100px;
@@ -39,7 +40,7 @@ body{
 .color-orange{
     color: orange;
 }
-/*End Header-section*/
+/*End Food-network-section*/
 
 /*start about-section*/
 .about-section{
@@ -56,7 +57,7 @@ body{
 }
 .about-part h1{
     font-size: 30px;
-    font-weight: 900;
+    font-weight: ;
 }
 .about-part a{
     display: inline-block;
@@ -85,10 +86,12 @@ body{
     height: auto;
     width: 30%;
     padding: 20px;
-    border: 1px solid;
     box-shadow: 5px 5px 8px #5c5858;
     margin-left: 30px;
     border-radius: 15px;
+}
+.items h1{
+    text-align: left;
 }
 .items img{
     
@@ -96,3 +99,19 @@ body{
     height: 30%;
 }
 /*End Ricepe-section*/
+
+/*Start Footer Section*/
+footer{
+    height: 120px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(14, 10, 10);
+}
+.color-deep-orange{
+    color: orangered;
+}
+.color-light{
+    color: turquoise;
+}
+/*End Footer Section*/
