@@ -3,6 +3,9 @@ body{
     margin: 0;
     background-color: rgb(230, 221, 221);
 }
+h1{
+    margin: 0;
+}
 /*Start Header-section*/
     .header-section{
         text-align: center;
@@ -81,7 +84,7 @@ body{
 .recipe-items{
     display: flex;
     padding: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .recipe-section h1{
     text-align: center;
@@ -108,9 +111,40 @@ body{
 .items img{
     
     width: 100%;
-    height: 30%;
+    height: 50%;
 }
 /*End Ricepe-section*/
+
+/*Start feedback-section*/
+.feedback-section{
+    color: black;
+    height: 180px;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+}
+.color-blue{
+    color: rgb(44, 0, 88);
+}
+#textbox{
+        height:40px;
+        border: none;
+        border-radius: 5px;
+    }
+#submit{
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    background-image: linear-gradient(to right,rgb(31, 157, 230),rgb(10, 8, 131));
+
+}
+#submit:hover{
+    background-image: linear-gradient(to right,orange,red);
+}
+/*End feedback-section*/
 
 /*Start Footer Section*/
 footer{
