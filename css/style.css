@@ -1,9 +1,11 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
-.first-section{
+.first-section,.about-section{
     display: flex;
     height: 500px;
+    margin-bottom: 100px;
 }
 .section-part{
     width: 50%;
@@ -13,15 +15,21 @@ body{
     font-size: 45px;
 }
 .linked-button{
-    display: block;
-    width: 100px;
+    display: inline-block;
     color: white;
-    font-size: 700;
+    font-weight: 900;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
-    background: linear-gradient(orange,red);
+    padding: 15px 30px;
+    background-image: linear-gradient(to right,orange,red);
     border-radius: 20px;
+}
+.para-width{
+    width: 60%;
+}
+.paragraph{
+    margin: 40px 0px;
+    line-height: 1.8;
 }
 .section-part img{
     height: 400px;
@@ -29,4 +37,26 @@ body{
 }
 .color-orange{
     color: orange;
+}
+
+/*about-section*/
+.about-section{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-img img{
+    width: 80%;
+    height: 100%;
+}
+.about-part{
+    width: 50%;
+    padding: 70px 70px 0px;
+}
+.about-part h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-part a{
+    display: inline-block;
+    margin-top: 60px;
 }
