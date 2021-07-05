@@ -3,7 +3,20 @@ body{
     margin: 0;
     background-color: rgb(230, 221, 221);
 }
-/*Food-network-section*/
+/*Start Header-section*/
+    .header-section{
+        text-align: center;
+        height: 100px;
+        color: white;
+        padding-top: 30px;
+        background-color: rgb(14, 10, 10);
+    }
+    .header-section h1{
+        margin: 0;
+    }
+/*End Header-section*/
+
+/*Start Food-network-section*/
 .food-network-section,.about-section{
     display: flex;
     height: 500px;
